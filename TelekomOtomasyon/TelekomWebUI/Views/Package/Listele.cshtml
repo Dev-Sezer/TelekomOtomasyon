@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Package>
+@{
+    ViewData["Title"] = "Listele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div><a asp-controller="Package" asp-action="AddPackage" class="btn btn-success">Paket Ekle</a></div>
+<h1>Paket Listesi</h1>
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-danger" role="alert">
+        Kayıt Bulunamadı..!
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Paket Adı</th>
+                <th scope="col">Paket İçeriği</th>
+                <th scope="col">###</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.ID</th>
+                    <td>@item.PackageName</td>
+                    <td>@item.Contents</td>
+                    <td><a asp-controller="Package" asp-action="Guncelle" asp-route-id="@item.ID" class="btn btn-warning">Güncelle</a></td>
+                    <td><a asp-controller="Package" asp-action="Sil" asp-route-id="@item.ID" class="btn btn-danger">Sil</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

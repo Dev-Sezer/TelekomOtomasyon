@@ -1,0 +1,19 @@
+﻿@model Package
+@{
+    ViewData["Title"] = "AddPackage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Paket Ekleme Sayfası</h1>
+@if (ViewBag.PackageError != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.PackageError
+    </div>
+}
+<form asp-controller="Package" asp-action="AddPackage" method="post">
+    <input type="text" name="PackageName" placeholder="Paket Adı Girin" /><br />
+    <input type="text" name="Contents" placeholder="Paket İçeriği Girin" /><br />
+    <input type="submit" class="btn btn-success" value="Kaydet" />
+</form>
+

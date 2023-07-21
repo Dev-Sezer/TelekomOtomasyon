@@ -1,0 +1,11 @@
+Telekom Project 
+
+Bu projemde Telekom müşteri sistemini oluşturdum
+
+Müşteri Login:
+Müşteri giriş yaptığında karşısında paket seçebilecegi ve paket silebilcegi sayfaları görmektedir
+
+projemin anasayfasında müşteri ve paket kaydı atabilmekte olup aynı zamanda silip güncelleme yapılabilmekte. 
+
+
+

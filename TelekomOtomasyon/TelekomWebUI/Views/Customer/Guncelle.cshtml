@@ -1,0 +1,22 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "Guncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Müşteri Kayıt Güncelle</h1>
+@if (ViewBag.CustomerUpdateError != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.CustomerUpdateError
+    </div>
+}
+
+<form asp-controller="Customer" asp-action="Guncelle" method="post">
+    <input type="hidden" name="ID" value="@Model.ID" />
+    <input type="text" name="Name" value="@Model.Name" placeholder="Müşteri Adı Girin" /><br />
+    <input type="text" name="Surname" value="@Model.Surname" placeholder="Müşteri Soyadı Girin" /><br />
+    <input type="text" name="Tc" value="@Model.Tc" placeholder="Tc Girin" /><br />
+    <input type="submit" class="btn btn-success" value="Güncelle" />
+</form>
+

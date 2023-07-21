@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelekomWebUI", "TelekomWebUI\TelekomWebUI.csproj", "{3676A671-B0E8-439B-BA44-B2CB47D9DBA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelekomCore", "TelekomCore\TelekomCore.csproj", "{3A066911-FDD6-456D-B3C3-6F1D97847A2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelekomModel", "TelekomModel\TelekomModel.csproj", "{368C39E7-8E65-4FA6-9685-A395C5A7F3DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A066911-FDD6-456D-B3C3-6F1D97847A2E} = {3A066911-FDD6-456D-B3C3-6F1D97847A2E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelekomService", "TelekomService\TelekomService.csproj", "{377B6B2B-F269-433D-A00A-66A619121ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3676A671-B0E8-439B-BA44-B2CB47D9DBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3676A671-B0E8-439B-BA44-B2CB47D9DBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3676A671-B0E8-439B-BA44-B2CB47D9DBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3676A671-B0E8-439B-BA44-B2CB47D9DBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A066911-FDD6-456D-B3C3-6F1D97847A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A066911-FDD6-456D-B3C3-6F1D97847A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A066911-FDD6-456D-B3C3-6F1D97847A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A066911-FDD6-456D-B3C3-6F1D97847A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368C39E7-8E65-4FA6-9685-A395C5A7F3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368C39E7-8E65-4FA6-9685-A395C5A7F3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368C39E7-8E65-4FA6-9685-A395C5A7F3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368C39E7-8E65-4FA6-9685-A395C5A7F3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377B6B2B-F269-433D-A00A-66A619121ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377B6B2B-F269-433D-A00A-66A619121ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377B6B2B-F269-433D-A00A-66A619121ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377B6B2B-F269-433D-A00A-66A619121ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0F00308-F9EF-4D3F-A9D0-6FBA72627932}
+	EndGlobalSection
+EndGlobal

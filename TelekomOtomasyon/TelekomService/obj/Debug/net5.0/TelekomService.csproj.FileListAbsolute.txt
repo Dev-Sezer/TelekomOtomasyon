@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomService.deps.json
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomService.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomService.pdb
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomCore.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomModel.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomModel.pdb
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\bin\Debug\net5.0\TelekomCore.pdb
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.AssemblyInfo.cs
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.csproj.CopyComplete
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\refint\TelekomService.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\TelekomService.pdb
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomService\obj\Debug\net5.0\ref\TelekomService.dll

@@ -1,0 +1,21 @@
+﻿@model Package
+@{
+    ViewData["Title"] = "PackageVote";
+    Layout = "~/Areas/User/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Paket Seç</h1>
+<form asp-area="User" asp-controller="Customer" asp-action="PackageVote" method="post">
+   <input  type="hidden" name="ID" value="@Model.ID"/>
+   <label>Paket adı</label>
+    <input type="text" name="PackageName" value="@Model.PackageName" disabled /><br /><br />
+    <label>Paket içeriği</label>
+    <input type="text" name="Contents" value="@Model.Contents" disabled /><br /><br />
+    <label>Müşteri Adı</label>
+    <input type="text" name="Cname" /><br /><br />
+    <label>Müşteri Soyadı</label>
+    <input type="text" name="Csurname" /><br /><br />
+    <input type="hidden" name="PackageID" disabled /><br /><br />
+    <input type="hidden" name="id" disabled /><br /><br />
+    <input type="submit" value="Kaydet"  />
+</form>

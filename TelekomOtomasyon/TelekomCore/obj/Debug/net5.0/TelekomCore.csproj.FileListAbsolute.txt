@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\bin\Debug\net5.0\TelekomCore.deps.json
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\bin\Debug\net5.0\TelekomCore.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\bin\Debug\net5.0\TelekomCore.pdb
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.AssemblyInfo.cs
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\refint\TelekomCore.dll
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\TelekomCore.pdb
+C:\Users\USER\Desktop\TelekomOtomasyon\TelekomCore\obj\Debug\net5.0\ref\TelekomCore.dll

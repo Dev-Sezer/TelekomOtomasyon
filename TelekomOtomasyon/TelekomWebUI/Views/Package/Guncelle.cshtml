@@ -1,0 +1,21 @@
+﻿@model Package
+@{
+    ViewData["Title"] = "Guncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Paket Güncelleme Sayfası</h1>
+@if (ViewBag.PackageUpdateError != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.PackageUpdateError
+    </div>
+}
+
+<form asp-controller="Package" asp-action="Guncelle" method="post">
+    <input type="hidden" name="ID" value="@Model.ID" />
+    <input type="text" name="PackageName" value="@Model.PackageName" placeholder="Müşteri Adı Girin" /><br />
+    <input type="text" name="Contents" value="@Model.Contents" placeholder="Müşteri Soyadı Girin" /><br />
+    <input type="submit" class="btn btn-success" value="Güncelle" />
+</form>
+
